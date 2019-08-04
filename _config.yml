@@ -1,8 +1,8 @@
 theme: jekyll-theme-minimal
 
 title: [STA314 Statistical Methods of Machine Learning I]
-description: [This website contains mostly my coursework in STA314. All questions are retreived via Quercus and they are
-designed by the instructor Daniel Simpson. All solutions are written by Hongbo Du.]
+description: [This website contains mostly my coursework in STA314. All questions are retrieved via Quercus and they are
+designed by instructor Daniel Simpson. All solutions are written by Hongbo Du.]
 github:
   is_project_page: false
 
