@@ -40,11 +40,20 @@ $$D_i = \frac{|\beta^T x_i + \beta_0|}{||\beta||^2_2} = \frac{y_i(\beta^T x_i + 
 
 This gives the maximal margin classifier 
 
+
 $$\max_{M, \beta, \beta_0}M subject\ to:\ y_i(\beta_0 + x^T_i\beta) \geq M||\beta||^2_2$$.
+
 
 If $$y_i = 1$$, $$\beta_0 + x^T_i\beta > 0$$, then $$|\beta_0 + x^T_i\beta| = \beta_0 + x^T_i\beta = y_i(\beta_0 + x^T_i\beta)$$.
 
-Now if we set it to 1, but if $$||\beta||^2_2 = M^{-1}$$, we get the equivalent formulation 
+
+Now if we set it to 1, but if 
+
+
+$$||\beta||^2_2 = M^{-1}$$
+
+
+, we get the equivalent formulation 
 $$\min_{\beta, \beta_0} \frac{1}{2} ||\beta||^2_2  subject\ to:\ y_i(\beta_0 + x^T_i\beta) \geq 1 \equiv 1(\beta_0 + x^T_i\beta) \geq 1$$
 
 If $$y_i = -1$$, $$\beta_0 + x^T_i\beta < 0$$, then $$|\beta_0 + x^T_i\beta| = -(\beta_0 + x^T_i\beta) = y_i(\beta_0 + x^T_i\beta)$$. 
