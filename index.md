@@ -16,7 +16,11 @@
 
 ### Week 10
 
-...
+Question:
+
+In the lecture (and in the textbook) we learnt that "approximately $2/3$ of the original observations are present in each boostrap sample". This statement is only approximately correct. By computing the probability that each observation is present in a particular bootstrapped dataset, argue that, as the size of the training set
+goes to infinity, a more precise number is $0.632 < 2/3$. Plot a graph of the number of samples in the training
+data vs the expected proportion of unique observations in each data set, marking when it crosses $2/3$.
 
 
 $Proof:$
