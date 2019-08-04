@@ -1,27 +1,13 @@
-## Welcome to GitHub Pages
+## STA314 Statictical Methods to Machine Learning I
 
-You can use the [editor on GitHub](https://github.com/hdu214/sta314/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Week 10
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+...
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+Consider the samples $x_1, x_2, ..., x_n$. Draw samples with replacement until we have another set of samples $x_1, x_2, ..., x_n$. Thus it follows that the probability of choosing any one item is $\frac{1}{n}$ and the probability of not choosing this item is $1-\frac{1}{n}$. By independence of the samples, until the draw of $x_n$, we have the probability of not choosing any sample is $(1-\frac{1}{n})^n$. Now, if $n$ goes to infinity, the approximation of the original observations presented in each bootstrap sample is 
+$$\lim_{n \rightarrow \infty } \Big(1- (1-\frac{1}{n})^n \Big)= \Big(1- \frac{1}{e} \Big) \approx 0.632$$
 
 [Link](url) and ![Image](src)
 ```
