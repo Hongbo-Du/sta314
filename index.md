@@ -17,8 +17,7 @@
 
 Question: 
 
-Show that, for the maximum margin classifier, the correct value of $\beta_0$ is $\beta_0 = \frac{\max_{i:y_i=-1} (\beta^*)^Tx_i + \min_{i:y_i=1} (\beta^*)^Tx_i}{2}$
-
+Show that, for the maximum margin classifier, the correct value of $\beta_0$ is $\beta_0 = \frac{\max_{i:y_i=-1}(\beta^*)^Tx_i+\min_{i:y_i=1}(\beta^*)^Tx_i}{2}$
 $Proof: $
 For convenience, label the two classes as $\{-1, 1\}$. 
 Consider the hyperplane $\beta^Tx+\beta_0 = 0$. Let $p$ be any point on the hyperplane, then
