@@ -13,6 +13,11 @@
 
 ## STA314 Statictical Methods to Machine Learning I
 
+### Week 9
+
+Question: 
+
+Show that, for the maximum margin classifier, the correct value of $\beta_0$ is
 
 ### Week 10
 
