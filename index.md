@@ -27,4 +27,6 @@ $$\lim_{n \rightarrow \infty } \Big(1- (1-\frac{1}{n})^n \Big)= \Big(1- \frac{1}
 The following plot is a graph of the number of samples in the training
 data vs the expected proportion of unique observations in each data set, which the training set contains 50 samples; also noting that it crosses the level of $\frac{2}{3}$, where the red horizontal line is at. 
 
+![image](https://github.com/hdu214/sta314/blob/master/Rplot.png?raw=true)
+
 
