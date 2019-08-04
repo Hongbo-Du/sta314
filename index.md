@@ -17,7 +17,7 @@
 
 Question: 
 
-Show that, for the maximum margin classifier, the correct value of $\beta_0$ is $\beta_0 = \frac{\max_{i:y_i=-1} (\beta^*)^Tx_i + \min_{i:y_i=1} (\beta^*)^Tx_i}{2}$ where $\beta^* = \sum^{n}_{i=1}\lambda^{*}{i}y_ix_i$ is the $optimal$ value for $\beta$.
+Show that, for the maximum margin classifier, the correct value of $\beta_0$ is $\beta_0 = \frac{\max_{i:y_i=-1} (\beta^*)^Tx_i + \min_{i:y_i=1} (\beta^*)^Tx_i}{2}$
 
 $Proof: $
 For convenience, label the two classes as $\{-1, 1\}$. 
