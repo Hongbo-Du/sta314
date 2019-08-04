@@ -44,25 +44,27 @@ $$\max_{M, \beta, \beta_0}M subject\ to:\ y_i(\beta_0 + x^T_i\beta) \geq M||\bet
 
 If $y_i = 1$, $\beta_0 + x^T_i\beta > 0$, then $|\beta_0 + x^T_i\beta| = \beta_0 + x^T_i\beta = y_i(\beta_0 + x^T_i\beta)$. 
 Now if we set it to 1, but if $||\beta||^2_2 = M^{-1}$, we get the equivalent formulation 
-$$\min_{\beta, \beta_0} \frac{1}{2} ||\beta||^2_2 subject\ to:\ y_i(\beta_0 + x^T_i\beta) \geq 1 \equiv 1(\beta_0 + x^T_i\beta) \geq 1$$
+$$\min_{\beta, \beta_0} \frac{1}{2} ||\beta||^2_2  subject\ to:\ y_i(\beta_0 + x^T_i\beta) \geq 1 \equiv 1(\beta_0 + x^T_i\beta) \geq 1$$
 
 
-If $y_i = -1$, $\beta_0 + x^T_i\beta < 0$, then $|\beta_0 + x^T_i\beta| = -(\beta_0 + x^T_i\beta) = y_i(\beta_0 + x^T_i\beta)$. Now if we set it to $-1$, but if $||\beta||^2_2 = M^{-1}$, we get the equivalent formulation 
-$$\max_{\beta, \beta_0} \frac{1}{||\beta||^2} \ \ \ \ subject\ to:\ y_i(\beta_0 + x^T_i\beta) \geq 1 \equiv -1(\beta_0 + x^T_i\beta) \geq 1$$
-with $\beta^* = \sum^{n}_{i=1}\lambda^*y_ix_i$ is the optimal value of $\beta$, we obtained
+If $$y_i = -1$$, $$\beta_0 + x^T_i\beta < 0$$, then $$|\beta_0 + x^T_i\beta| = -(\beta_0 + x^T_i\beta) = y_i(\beta_0 + x^T_i\beta)$$. 
+Now if we set it to $-1$, but if $$||\beta||^2_2 = M^{-1}$$, we get the equivalent formulation 
+$$\max_{\beta, \beta_0} \frac{1}{||\beta||^2}  subject\ to:\ y_i(\beta_0 + x^T_i\beta) \geq 1 \equiv -1(\beta_0 + x^T_i\beta) \geq 1$$
+
+with $$\beta^* = \sum^{n}_{i=1}\lambda^*y_ix_i$$ is the optimal value of $\beta$, we obtained
 
 
-    $1(\beta_0 + x^T_i\beta) \geq 1 \implies 1[\min_{i:y_i = -1} (\beta^*)^Tx_i] + \beta_0 = 1$
+$$1(\beta_0 + x^T_i\beta) \geq 1 \implies 1[\min_{i:y_i = -1} (\beta^*)^Tx_i] + \beta_0 = 1$$
 
 
-    $-1(\beta_0 + x^T_i\beta) \geq 1 \implies -1[\max_{i:y_i = -1} (\beta^*)^Tx_i] - \beta_0 = 1$
+$$-1(\beta_0 + x^T_i\beta) \geq 1 \implies -1[\max_{i:y_i = -1} (\beta^*)^Tx_i] - \beta_0 = 1$
 
 
 Now subtracting (1) and (2), we have 
 
-    0       & = 1[\min_{i:y_i = -1} (\beta^*)^Tx_i] - \beta_0 - \big(-1[\max_{i:y_i = -1} (\beta^*)^Tx_i] - \beta_0\big) \\
-    2\beta_0 & = [\min_{i:y_i = -1} (\beta^*)^Tx_i] + [\max_{i:y_i = -1} (\beta^*)^Tx_i] \\
-    \beta_0 & = \frac{\max_{i:y_i=-1} (\beta^*)^Tx_i + \min_{i:y_i=1} (\beta^*)^Tx_i}{2}
+   $$0       & = 1[\min_{i:y_i = -1} (\beta^*)^Tx_i] - \beta_0 - \big(-1[\max_{i:y_i = -1} (\beta^*)^Tx_i] - \beta_0\big)$$
+   $$2\beta_0 & = [\min_{i:y_i = -1} (\beta^*)^Tx_i] + [\max_{i:y_i = -1} (\beta^*)^Tx_i]$$
+   $$\beta_0 & = \frac{\max_{i:y_i=-1} (\beta^*)^Tx_i + \min_{i:y_i=1} (\beta^*)^Tx_i}{2}$$
     
     
 
