@@ -40,6 +40,7 @@ $$D_i = \frac{|\beta^T x_i + \beta_0|}{||\beta||^2_2} = \frac{y_i(\beta^T x_i + 
 
 This gives the maximal margin classifier 
 
+[To be continued]
     
 
 
